@@ -1,0 +1,31 @@
+{
+    "name": "mgdigi/ges-employer",
+    "autoload": {
+        "psr-4": {
+            "App\\Entity\\": "src/entity/",
+            "App\\Core\\": "app/core/",
+            "App\\Repository\\": "src/repository/",
+            "App\\Service\\": "src/service/",
+            "App\\Controller\\": "src/controller/",
+            "App\\Core\\Abstract\\": "app/core/abstract/",
+            "App\\Core\\Middlewares\\": "app/core/middlewares/",
+            "App\\Config\\Translate\\Fr\\": "app/config/translate/fr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mgdigi",
+            "email": "gueyeprophete287@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "twilio/sdk": "^8.6",
+        "cloudinary/cloudinary_php": "^3.1"
+    },
+    "scripts": {
+      "database:migrate": "php migrations/Migration.php",
+      "database:seed": "php seeders/Seeder.php"
+
+    }
+}

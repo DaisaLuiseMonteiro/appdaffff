@@ -1,0 +1,19 @@
+core:
+  database: App\Core\Database
+  session: App\Core\Session
+  validator: App\Core\Validator
+  router: App\Core\Router
+  imageServ: App\Core\ImageService
+
+abstract:
+  abstractRepo: App\Core\Abstract\AbstractRepository
+  abstractController: App\Core\Abstract\AbstractController
+  abstractEntity: App\Core\Abstract\AbstractEntity
+
+services:
+  citoyenServ: App\Service\CitoyenService
+  
+
+repositories:
+  citoyenRepo: App\Repository\CitoyenRepository
+  
