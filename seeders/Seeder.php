@@ -57,19 +57,19 @@ class Seeder
                 ],
                 [
                     'nom' => 'Fall',
-                    'prenom' => 'Aminata',
-                    'numerocni' => '1234567890101',
+                    'prenom' => 'Ami',
+                    'numerocni' => '1237567890101',
                     'photoIdentite' => 'photo_identite2.png',
                     'lieuNaiss' => 'Saint-Louis',
-                    'dateNaiss' => '1985-05-15',
+                    'dateNaiss' => '1986-05-15',
                 ],
                 [
                     'nom' => 'Ndiaye',
-                    'prenom' => 'Moussa',
-                    'numerocni' => '1234567890102',
+                    'prenom' => 'fatou',
+                    'numerocni' => '1234567890104',
                     'photoIdentite' => 'photo_identite3.png',
-                    'lieuNaiss' => 'Thiès',
-                    'dateNaiss' => '1990-12-20',
+                    'lieuNaiss' => 'fatick',
+                    'dateNaiss' => '1994-12-20',
                 ]
             ];
             
