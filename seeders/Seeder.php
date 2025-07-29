@@ -51,7 +51,7 @@ class Seeder
                     'nom' => 'Diop',
                     'prenom' => 'Sidi',
                     'numerocni' => '1234567890100',
-                    'photoIdentite' => 'photo_identite1.png',
+                    'photoIdentite' => 'photo_identite2.png',
                     'lieuNaiss' => 'Dakar',
                     'dateNaiss' => '1980-01-01',
                 ],
@@ -67,7 +67,7 @@ class Seeder
                     'nom' => 'Ndiaye',
                     'prenom' => 'fatou',
                     'numerocni' => '1234567890104',
-                    'photoIdentite' => 'photo_identite3.png',
+                    'photoIdentite' => 'photo_identite2.png',
                     'lieuNaiss' => 'fatick',
                     'dateNaiss' => '1994-12-20',
                 ]
@@ -80,7 +80,8 @@ class Seeder
                     $imagePathIdentite = __DIR__ . '/images/' . $citoyen['photoIdentite'];
                     
                     // Vérifier si le fichier image existe
-                    if (!file_exists($imagePathIdentite)) {
+                    if 
+                    (!file_exists($imagePathIdentite)) {
                         echo "Image non trouvée : " . $imagePathIdentite . "\n";
                         // Utiliser une URL par défaut ou continuer sans upload
                         $urlIdentite = 'https://via.placeholder.com/300x400?text=Photo+CNI';
